@@ -35,7 +35,7 @@ function handleClick() {
     
 }
 //event to listen for form button 
-d3.selectAll("#filter-btn").on("click", handleClick); 
+d3.selectAll("#filter-btn").on("change", handleClick); 
 
 //build table when page loads
 buildTable(tableData);
